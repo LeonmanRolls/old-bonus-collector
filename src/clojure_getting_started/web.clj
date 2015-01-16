@@ -9,7 +9,7 @@
 (defn splash []
   {:status 200
    :headers {"Content-Type" "text/plain"}
-   :body (pr-str ["Hello" :from 'Heroku])})
+   :body (pr-str ["Hello there old chap" :from 'Heroku])})
 
 (defroutes app
   (GET "/" []
@@ -23,4 +23,4 @@
 
 ;; For interactive development:
 ;; (.stop server)
-;; (def server (-main))
+ (def server (-main))
