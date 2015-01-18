@@ -1,0 +1,19 @@
+window.serverdata = {};
+window.inFacebook = {};
+window.length = {};
+window.localStorage.length = {};
+window.parseInt = function () {};
+window.localStorage.getItem = function () {};
+window.localStorage.key = function () {};
+window.moment.unix = function () {};
+window.localStorage.removeItem = function () {};
+window.localStorage.setItem = function () {};
+window.alert = function () {};
+window.FB.login = function () {};
+window.FB.ui = function () {};
+window.FB.api = function () {};
+window.initfacebook = function () {};
+window.initDataTable = function () {};
+window.hasstorage = {};
+window.getBonuses = function () {};
+
