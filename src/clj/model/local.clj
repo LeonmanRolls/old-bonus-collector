@@ -1,18 +1,22 @@
-(ns model.local (:require [views.click :as views]))
-(require '[clojure.java.jdbc :as sql])
+(ns model.local (:require [views.click :as views]
+                          [environ.core :refer [env]]
+                          [clojure.java.jdbc :as sql]
+                          ))
 (use '[clojure.string :only (split)])
 (use '[clojure.algo.generic.functor :only  (fmap)])
 
 (def db {:subprotocol "mysql"
-         :subname "//127.0.0.1:3306/u1st_games"
-         :user "root"
-         :password "1fishy4me"})
+         :subname (env :database-url "//127.0.0.1:3306/u1st_games")
+         :user (env :db-user "root")
+         :password (env :db-password "1fishy4ME!") })
 
 (defn appInfo [appid]
   (nth (sql/query db [(str "SELECT gameid,gamename,gbcid from games where gbcid=" appid)]) 0))
 
+#_(appInfo 144726275680600)
+
 (defn appInfoClickx [appid]
-  (nth (sql/query db [(str "SELECT gameid,gamename,clickxid,canvasname,clickxnamespace from games where clickxid=" appid)]) 0))
+  (nth (sql/query db [(str "SELECT gameid,gamename,clickxid,canvasname from games where clickxid=" appid)]) 0))
 
 (defn latestLinks [gameid limit]
   (let [querystring 
@@ -45,22 +49,18 @@
                   :link (linkMap :link)  
                   :clickLimit (linkMap :clicks)   
                   :currentClicks 0
-                  :addedbyname (linkMap :addedbyname)
-                  :addedbyid (linkMap :addedbyid)
                   :added_time (quot (System/currentTimeMillis) 1000)}]
     (try (sql/insert! db :clickexchange queryMap) (catch Exception e (str "Error in adding to clickx")))))
 
-(defn addClickxBonus [bonuses user]
+(defn addClickxBonus [bonuses]
   (doseq [x bonuses] 
     (let [queryMap {:gameid (get x "app_id") 
                     :caption (get (get x "attachment") "name")  
                     :link (get (get x "attachment") "href")  
                     :clickLimit 5
                     :currentClicks 0
-                    :addedbyname (get user "name")
-                    :addedbyid (get user "id")
                     :added_time (quot (System/currentTimeMillis) 1000)}]
-      (try (sql/insert! db :clickexchange queryMap) #_(catch Exception e #(print "heeeeyaa"))))))
+      (try (sql/insert! db :clickexchange queryMap) (catch Exception e #(print "heeeeyaa"))))))
 
 (defn addBonuses [bonuses]
   (doseq [x bonuses] 
