@@ -1,0 +1,9 @@
+WARNING: You're currently running as root; probably by accident.
+Press control-C to abort or Enter to continue as root.
+Set LEIN_ROOT to disable this warning.
+Rewriting src/cljx to src/clj/modern_cljs (clj) with features #{clj} and 0 transformations.
+Rewriting src/cljx to src/cljs/modern_cljs (cljs) with features #{cljs} and 1 transformations.
+Compiling ClojureScript.
+Compiling "resources/public/js/production.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/production.js" failed.[0m
+Subprocess failed

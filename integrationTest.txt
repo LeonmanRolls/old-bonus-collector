@@ -1,0 +1,47 @@
+Bonus Collector
+-clean code, remove printlns
+-Enable suggestions box
+-Auth test for non facebook bonus collector
+-Auth test
+-Click bonus test (Green border)
+-Recently collected
+-Search test
+-Check linkexchange link is working
+-Check bonuses get inserted into database
+-Check more links on linkexchange works and updates
+-Check time ago
+-check click green border
+-Check search works
+-check works without cdns
+-Put CDNs back in
+-check none of the suggested bonus collectors lead to a bonus collector with no bonuses 
+(i.e. there should be at least one of your OWN bonuses)
+-Check adblock message dispalys correctly
+-Check clicxk exchange link for fv2 and criminal case
+-check click exchange link for app that is not fv2 or crminal case
+-Repeat above without cookies
+
+Click Exchange
+-auth test for non fb and fb versions
+-Check form validation
+-Check link inserted 
+-check number of clicks increases accordingly 
+-check links are deleted once limit is reached
+
+Release procedure
+-stop js autocompile
+-change environment
+-increase version number
+-change port
+-lein2 clean
+-lein2 ring uberjar 
+
+Live only (Change bctest 2 and 3 to live links)
+-No bonus linkx
+-No bonus empty db
+
+After release 
+-change environment
+-check fbtest/live port 
+-Disable suggestions box
+
