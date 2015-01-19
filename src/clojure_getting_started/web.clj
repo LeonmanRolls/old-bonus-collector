@@ -1,10 +1,7 @@
 (ns clojure-getting-started.web
   #_(:require [compojure.core :refer [defroutes GET PUT POST DELETE ANY]]
-            [compojure.handler :refer [site]]
-            [compojure.route :as route]
-            [clojure.java.io :as io]
-            [ring.adapter.jetty :as jetty]
-            [environ.core :refer [env]])
+            )
+
   (:use compojure.core)
   (:use ring.middleware.edn)
   (:require [compojure.handler :as handler]
@@ -14,7 +11,10 @@
     [handlers.link :as linkhandler]
     [handlers.feed :as feedhandler]
     [handlers.yt :as ythandler]
+    [clojure.java.io :as io]
     [model.local :as m]
+    [compojure.handler :refer [site]]
+    [ring.adapter.jetty :as jetty]
     [compojure.route :as route]
     [model.local :as local]
     [environ.core :refer [env]]
@@ -83,11 +83,10 @@
   (handler/site (-> app-routes wrap-edn-params)))
 
 
-
 (defn -main [& [port]]
   (let [port (Integer. (or port (env :port) 5000))]
     (jetty/run-jetty (site #'handler) {:port port :join? false})))
 
 ;; For interactive development:
 ;; (.stop server)
-;; (def server (-main))
+;;(def server (-main))
