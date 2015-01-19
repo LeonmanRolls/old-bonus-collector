@@ -7,13 +7,13 @@
 
 (def db {:subprotocol "mysql"
          :subname (env :database-url "//127.0.0.1:3306/u1st_games")
-         :user "root"
-         :password "1fishy4ME!"})
+         :user (env :db-user "root")
+         :password (env :db-password "1fishy4ME!") })
 
 (defn appInfo [appid]
   (nth (sql/query db [(str "SELECT gameid,gamename,gbcid from games where gbcid=" appid)]) 0))
 
-(appInfo 144726275680600)
+#_(appInfo 144726275680600)
 
 (defn appInfoClickx [appid]
   (nth (sql/query db [(str "SELECT gameid,gamename,clickxid,canvasname from games where clickxid=" appid)]) 0))
