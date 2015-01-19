@@ -1,0 +1,500 @@
+remove
+even
+even?
+ (vals (group-by even? [1 2 3 4 5 6 7 8 9]))
+(group-by even? [1 2 3 4 5 6 7 8 9])
+(browser-repl)
+(+ 3 4)
+(js/alert "hi there")
+($)
+(in-ns 'modern-cljs.gbc)
+($)
+($ #:collectedalready)
+($ :#collectedalready)
+($ :#collectedalreaddsffdsy)
+(map #(hide %) ($ :#bonuseslivehere))
+(map #(hide %) ($ :#bonuseslivehere>li))
+($ :#bonuseslivehere>li)
+(loop [x 10]
+  (when (> x 1)
+    (println x)
+    (recur (- x 2))))
+(read-string "234324")
+queryresult
+(js/parseInt "23442")
+(* 0 3)
+(.unix js/moment)
+(.unix (js/moment))
+(.key js/localStorage 8)
+(.key js/localStorage 3)
+(.getItem js/localStorage (.key js/localStorage 3))
+(> (.getItem js/localStorage (.key js/localStorage 3)) ( - (.unix (js/moment) (* 0 234)))
+)
+(> (.getItem js/localStorage (.key js/localStorage 3)) ( - (.unix (js/moment) (* 0 234))))
+(< (.getItem js/localStorage (.key js/localStorage 3)) ( - (.unix (js/moment) (* 0 234))))
+(< (.getItem js/localStorage (.key js/localStorage 3)) ( - (.unix (js/moment) (* 1 86400))))
+(< (.getItem js/localStorage (.key js/localStorage 3)) ( - (.unix (js/moment) (* 0 86400))))
+(> (.getItem js/localStorage (.key js/localStorage 3)) ( - (.unix (js/moment) (* 0 86400))))
+(> (.getItem js/localStorage (.key js/localStorage 3)) ( - (.unix (js/moment) (* 10 86400))))
+(.getItem js/localStorage (.key js/localStorage 3))
+(.unix (js/moment))
+(< (.getItem js/localStorage (.key js/localStorage 3)) ( - (.unix (js/moment) (* 10 86400))))
+(< (.getItem js/localStorage (.key js/localStorage 3)) ( - (.unix (js/moment) (* 0 86400))))
+(< 2 3)
+(js/parseInt "23")
+(< (js/parseInt (.getItem js/localStorage (.key js/localStorage 3))) ( - (.unix (js/moment) (* 0 86400))))
+(js/parseInt (.getItem js/localStorage (.key js/localStorage 3)))
+( - (.unix (js/moment) (* 0 86400)))
+( - (.unix (js/moment) (* 1 86400)))
+( - (* 0 86400) (.unix (js/moment)))
+( - 3 4)
+( - 3 0)
+(.unix (js/moment))
+( - (.unix (js/moment) 0))
+( - (.unix (js/moment)) 0)
+(< (js/parseInt (.getItem js/localStorage (.key js/localStorage 3))) ( - (.unix (js/moment)) (* 0 86400)))
+(< (js/parseInt (.getItem js/localStorage (.key js/localStorage 3))) ( - (.unix (js/moment)) (* 1 86400)))
+(< (js/parseInt (.getItem js/localStorage (.key js/localStorage 3))) ( - (.unix (js/moment)) (* 0 86400)))
+(< (js/parseInt (.getItem js/localStorage (.key js/localStorage 3))) ( - (.unix (js/moment)) (* 0.5 86400)))
+(< (js/parseInt (.getItem js/localStorage (.key js/localStorage 3))) ( - (.unix (js/moment)) (* 1 86400)))
+(< (js/parseInt (.getItem js/localStorage (.key js/localStorage 3))) ( - (.unix (js/moment)) (* 1 100)))
+(< (js/parseInt (.getItem js/localStorage (.key js/localStorage 3))) ( - (.unix (js/moment)) (* 1 1000)))
+(< (js/parseInt (.getItem js/localStorage (.key js/localStorage 3))) ( - (.unix (js/moment)) (* 1 10000)))
+(< (js/parseInt (.getItem js/localStorage (.key js/localStorage 3))) ( - (.unix (js/moment)) (* 1 5000)))
+(< (js/parseInt (.getItem js/localStorage (.key js/localStorage 3))) ( - (.unix (js/moment)) (* 1 4000)))
+(.-length js/localStorage)
+(.key js/localStorage 5)
+(.key js/localStorage 4)
+($ :#bonuseslivehere)
+(.log js/console ($ :#bonuseslivehere))
+(.log js/console ($ :#bonuseslivehere>li))
+(apply hide ($ :#bonuseslivehere>li))
+(apply #(hide ($ %)) ($ :#bonuseslivehere>li))
+($ :#bonusesliverhere?li)
+($ :#bonusesliverhere>li)
+(.log js/console ($ :#bonusesliverhere>li))
+(.log js/console ($ :#bonusdiv>ul>li))
+(apply #(.log js/console %) ($ :#bonusdiv>ul>li))
+(apply #(.log js/console %) (js->cljs ($ :#bonusdiv>ul>li)))
+(apply #(.log js/console %) (js->clj ($ :#bonusdiv>ul>li)))
+(js->clj ($ :#bonusdiv>ul>li))
+($ :#bonusdiv>ul>li)
+(nth ($ :#bonusdiv>ul>li) 0)
+(.log js/console (nth ($ :#bonusdiv>ul>li) 0)
+(.log js/console (nth ($ :#bonusdiv>ul>li) 0)))
+(.log js/console (nth ($ :#bonusdiv>ul>li) 0))
+(.log js/console (nth ($ :#bonusdiv>ul>li) 20))
+(.-length ($ :#bonudiv>ul>li))
+(.-length ($ :#bonusdiv>ul>li))
+(browser-repl)
+(remote-callback :latestLinks [321574327904696 100] #(.log js/console %))
+(defn vectortest [one] [:h1 one])
+vectortest "one"
+(defn vectortest [one] [:h1 (str "you entered: " one)])
+vectortest hello
+vectortest "helo"
+vectortest "helo" "goodby"
+(in-ns 'modern-cljs.views.feed)
+maincontent
+(maincontent)
+(in-ns views.feeed)
+(in-ns 'views.feeed)
+maincontent
+(in-ns 'views.feed)
+maincontentttttttttttttttttttttt
+maincontent
+(maincontent)
+(= true (vector? (maincontent)))
+vector? [:idv 
+]
+(vector? [:div)
+(in-ns 'views.gbc)
+(maincontent "someName" 12345)
+(core/html (maincontent "gamename" 12345))
+(re-find #"gamename" (core/html (maincontent "gamename" 12345)))
+(re-find #"gamenae" (core/html (maincontent "gamename" 12345)))
+(in-ns 'views.link)
+eastcontent
+(eastcontent)
+(vector? (eastcontent))
+require
+require doc
+read-string
+read-string "hello there"
+(read-string "hello there")
+require (cljs.reader :as reader)
+(browser-repl)
+(js/alert "hi")
+ls
+(ns example (:require [cljs.reader :as reader]))
+(browser-repl)
+(js/alert "hi there")
+(browser-repl)
+(js/alert "hi there")
+(in-ns 'modern-cljs.gbc)
+login
+(.log js/console "hi there")
+(def bonuschan (chan))
+bonuschan
+(login bonuschan "{email}")
+morelinks
+(morelinks)
+(requestToFriends 223424234)
+(require modern-cljs.model)
+(require 'modern-cljs.model)
+(require 'modenrn_cljs.model)
+(require 'modern-cljs.model)
+(js/alert "sdfsd")
+(require 'modern-cljs.model)
+(require '[modern-cljs.model])
+(require '[modern-cljs.model :as model])
+m/appid
+(require '[modern-cljs.feed])
+(require '[modern-cljs.feed :as feed])
+(load-namespace 'modern-cljs.feed)
+(load-namespace 'modern-cljs.gbc)
+morelinks
+(js/alert "hi")
+(morelinks)
+(load-namespace 'modern-cljs.views-t)
+morelinks
+(morelinks)
+(in-ns 'modern-cljs.model-t)
+bonuspolaroid-test
+(bonuspolaroid-test)
+login
+(morelinks)
+(load-namespace 'modern-cljs.model-t)
+cljsviews/bonuspolaroid
+(cljsviews/bonuspolaroid "something" "else")
+(browser-repl)
+(in-ns 'modern-cljs.gbc)
+(morelinks)
+(in-ns modern-cljs.model)
+(in-ns 'modern-cljs.model)
+appid
+(remote :latestLinks 403204596417287 100)
+remote
+(remote)
+(require '[shoreleave.remote])
+(require '[shoreleave.remotes.request :as request])
+(require '[shoreleave.remotes.http-rpc :as rpc])
+(remote-callback :appInfo 403204596417287 #(.log js/console %))
+(remote-callback :appInfo "403204596417287" #(.log js/console %))
+(remote-callback :appInfo 403204596417287 #(.log js/console %))
+(remote-callback :latestLinks 403204596417287 100 #(.log js/console %))
+(remote-callback :appInfo [403204596417287] #(.log js/console %))
+(def appInfoResponse (remote-callback :appInfo [403204596417287] #(.log js/console %)))
+appInfoResponse
+(appIngoResponse)
+(defn appInfoResponse [] (remote-callback :appInfo [403204596417287] #(.log js/console %)))
+(appInfoResponse)
+(def bla (appInfoResponse))
+bla
+(defn [appInfoData]
+do
+:doc do
+(appInfoResponse)
+(aget (appInfoResponse) "gamename")
+(nth (appInfoResponse) 0)
+(appInfoResponse)
+(defn appInfoResponse [] (remote-callback :appInfo [403204596417287] #(.log js/console %)))
+(appInfoResponse)
+appInfoResponse
+(defn appInfoResponse [] (remote-callback :appInfo [403204596417287] #(.log js/console %)))
+(defn appInfoResponse [] (remote-callback :appInfo [403204596417287] #(.log js/consoled %)))
+(defn appInfoResponse [] (remote-callback :appInfo [403204596417287] #(aget % "gamename")))
+source appInfoResponse
+appInfoResponse
+source defn
+(source defn)
+(srouce slurp)
+(source slerp)
+appInfoResponse
+'appInfoResponse
+(print appInfoResponse)
+(appInfoResponse)
+(defn appInfoResponse [] (remote-callback :appInfo [403204596417287] #(.log js/console %)))
+appInfoResponse
+(appInfoResponse)
+(:source (meta appInfoResponse))
+(:source appInfoResponse)
+(val appInfoResposne)
+(eval appInfoResponse)
+appInfoResponse
+(appInfoResponse)
+appInfoResponse
+(source eval)
+*1
+(source merge)
+(print appInfoRepsonse)
+(defn appInfoResponse [] (remote-callback :appInfo [403204596417287] #(.log js/console %)))
+(js/alert "helli there")
+(print appInfoReponse)
+source
+(source)
+(source def)
+(load-namespace '[clojure.repl :as r])
+(load-namespace 'clojure.repl)
+(source def)
+(pr appInfoResponse)
+pr
+(pr "hello")
+(pr appInfoResponse)
+(print appInfoResponse)
+read
+(read appInfoResponse)
+(appInfoResponse)
+(defn appInfoResponse [] (remote-callback :appInfo [403204596417287] #(.log js/console %)))
+(read appInfoResponse)
+appInfoResponse
+read
+(read)
+(require '[cljs.core :as core])
+pr-str
+(pr-str appInfoResponse)
+(defn print-definition [v] (:source (meta v)))
+(print-definition #'appInfoResponse)
+appinfoResponse
+print-definition
+'appInfoResponse
+#appInfoResponse
+;
+)
+#'appInfoResponse
+(#appInfoResponse)
+#(appInfoResponse)
+(browser-repl)
+(js/alert "hi there")
+(defn appInfoResponse [] (remote-callback :appInfo [403204596417287] #(.log js/console %)))
+(appInfoResponse)
+(defn appInfoResponse [] (remote-callback :appInfo [403204596417287] #(.log js/console %)))
+(appInfoResponse)
+(in-ns 'modern-cljs.gbc)
+(appInfoResponse)
+(in-ns 'modern-cljs.model)
+(appInfoResponse)
+(defn appInfoResponse [] (remote-callback :appInfo [403204596417287] #(.log js/console %)))
+(appInfoResponse)
+(in-ns 'modern-cljs.model-t)
+(.-serverdata js/window "hi")
+(.-serverdata js/window)
+(.log js/console (.-serverdata))
+(.log js/console (.-serverdata js/window))
+(aset (.-serverdata js/window) "hi there")
+(aset (.-serverdata js/window) "well" "hi there")
+(.-serverdata js/window)
+(.log js/console (.-serverdata js/window))
+(aset (.-serverdata js/window) "gbcid" "123456")
+(.log js/console (.-serverdata js/window))
+(require '[modern-cljs.model :as cljsmodel])
+(js/alert  "goddam side effects")
+(require '[modern-cljs.model :as model])
+(load-namespace modern-cljs.model)
+appid
+(load-namespace modern-cljs.model-t)
+deftest
+(source deftest)
+cljsmodel/appid
+(aset (.-serverdata js/window) "gameid" "123456"))
+(aset (.-serverdata js/window) "gameid" "123456")
+cljsmodel/appid
+(def appid (.-gameid js/serverdata))
+appid
+(deftest appidTest
+(are [expected actual] (= expected actual) 
+"123456" appid))
+(appidTest)
+(= "123456" appid)
+(js/alert "hi"
+)
+(js/alert "hi there")
+(= appid (string? appid))
+appid
+(string? cljsmodel/appid)
+(num? cljsmodel/appid)
+cljsmodel/sppid
+cljsmodel/appid
+(t/test-ns 'modern-cljs.model-t)
+(require '[cemerick.cljs.test :as t])
+(in-ns 'modern-cljs.model-t)
+(t/test-ns 'modern-cljs.model-t)
+(load-namespace '[cemerick.cljs.test])
+(load-namespace 'cemerick.cljs.test)
+(browser-repl)
+(.log js/console "connected")
+(load-namespace 'you.mum)
+(load-namespace 'mdoern-cljs.model-t)
+(t/test-ns 'modern-cljs.model-t)
+(load-namespace 'modern-cljs.model)
+appid
+gameid
+(in-ns 'modern-cljs.gbc)
+(in-ns 'modern-cljs.model-t)
+(t/test-ns modern-cljs.moderl-t)
+(browser-repl)
+(ns fuck.you (:require [cemetick.cljs.test :as t]))
+(t/test-ns modern-cljs.model-t)
+(ns fuck.you (:require [cemerick.cljs.test :as t]))
+(t/test-ns modern-cljs.model-t)
+(load-namepsace 'modern-cljs.model-t)
+(load-namepsace 'modern-cljs.gbc)
+(load-namespace 'modern-cljs.model)
+appid
+(.log js/console "Still owkrin gparatentjklzaxzsdbvgfjkle")
+(load-file "resources/public/js/modern-dbg.js")
+(load-file "/resources/public/js/modern-dbg.js")
+(load-file "/root/clojure/modern-cljs/resources/public/js/modern-dbg.js")
+(ns modeltest (:require-macros [cemerick.cljs.test :refer (deftest are testing)])
+(:require [cemerick.cljs.test :as t]
+[modern-cljs.model :as cljsmodel]
+[clojure.string :as s]))
+(t/runtest )
+(browser-repl)
+(.log js/console "hi there")
+(load-namespace 'modern-cljs.model)
+appid
+(in-ns 'modern-cljs.model)
+appid
+(in-ns 'modern-cljs.model-t)
+cljsmodel/appid
+(load-namespace 'modern-cljs.model)
+appid
+(in-ns modern-cljs.model)
+(load-namespace 'modern-cljs.model)
+appid
+(cemerick.austin.repls/exec)
+(cemerick/piggieback/cljs-repl :repl-env (cemerick.austin/exec-env))
+(cemerick.austin.repls/exec)
+(apply + (js/Array 234 234 234 234))
+(in-ns 'modern-cljs.model)
+appid
+(ns dummy (:require [modern-cljs.model :as model]))
+appid
+(fqlquerygen 2423423)
+(browser-repl)
+(in-ns modern-cljs.gbc)
+(in-ns 'modern-cljs.gbc)
+(in-ns 'modern-cljs.model)
+appid
+(fqlquerygen 403204596417287)
+gameid
+gamename
+(aset js/serverdata "appid" "12345")
+appid
+(.-appid js/serverdata)
+(aset js/newthing "appis" "12")
+appid
+(.log js/console "hi there")
+appid
+(require 'modern-cljs.views)
+(ns whatever (:require [cemerick.cljs.test :as t])
+)
+(t/test-ns 'modern-cljs.model)
+(ns whatever (:require [cemerick.cljs.test :as t])
+(ns whatever (:require [cemerick.cljs.test :as t]))
+appid
+(load-namespace 'modern-cljs.model)
+appid
+gameid
+(bonusquery)
+(load-namespace 'your.mum)
+(load-namespace 'goog.date.Data)
+(load-namespace 'goog.date.Date)
+(js/alert "still here")
+(ns (:require [modern-cljs.model]))
+(ns whatever (:require [modern-cljs.model]))
+appid
+(in-ns 'modern-cljs.model)
+appid
+(in-ns 'modern-cljs.model)
+(remote-callback :appInfo [403204596417287] #(.log js/console "appInfo callback"))
+(in-ns 'modern-cljs.model)
+(remote-callback :appInfo [403204596417287] #(.log js/console "appInfo callback"))
+(remote-callback :appInfo [403204596417287] #(.log js/console %))
+(remote-callback :appInfo [403204596417287] #(print %)
+)
+(remote-callback :appInfo [403204596417287] #(print %))
+(remote-callback :appInfo [403204596417287] #(println %))
+(remote :appInfo [403204596417287])
+(require '[shoreleave.remotes.request :as request])
+(ns bla (:require [shoreleave.remotes.request :as request]))
+(def request request/request)
+(request :appInfo [124234])
+(print (request :appInfo [124234]))
+(.log js/console (request :appInfo [124234]))
+(in-ns 'modern-cljs.gbc)
+appid
+gameid
+(ns test (:require '[modern-cljs.gbc])
+)
+(js/alert "bla")
+(browser-repl)
+(in-ns 'modern-cljs.gbc)
+appid
+gameid
+login
+noBonusAlert
+(in-ns modern-cljs.gbc)
+(in-ns 'modern-cljs.gbc)
+appid
+gameid
+gamename
+(in-ns 'modern-cljs.gbc)
+appid
+bonuslistener
+(defn bonuslistener [bonus postid] (.log js/console bonus))
+(in-ns 'modern-cljs.gbc)
+apid
+appid
+loadingStart
+(loadingStart)
+(loadingStop)
+(in-ns 'modern-cljs.gbc)
+(preLogin)
+(postLogin)
+(at ["#loadingdiv"] (get-attr :class))
+(loadingStart)
+(at ["#loadingdiv"] (get-attr :class))
+(loadingStop)
+(at ["#loadingdiv"] (get-attr :style))
+(at ["#loadingdiv"] (add-class "hidden"))
+(at ["#loadingdiv"] (get-attr :id))
+(in-ns 'modern-cljs.gbc)
+(at ["#loadingdiv"] (get-attr :id))
+(at ["#loadingdiv"] (get-attr :class))
+(in-ns 'modern-cljs.gbc)
+(from ["#loadingdiv"] get-attr :class)
+(from ["#loadingdiv"] (get-attr :class))
+(in-ns 'modern-cljs.gbc)
+(from )
+(from)
+(require '[enfocus.core :as hey])
+(from)
+(browser-repl)
+(in-ns 'modern-cljs.gbc)
+appid
+gameid
+(from)
+(from ["#loadingdiv"] (get-attr :class))
+(at ["#loadingidv"] (remove-class "hidden"))
+(from ["#loadingdiv"] (get-attr :class))
+(at ["#loadingidv"] (remove-class "hidden"))
+(loadingStart)
+(from ["#loadingdiv"] (get-attr :class))
+(at ["#loadingdiv"] (remove-class "hidden"))
+(at ["#loadingdiv"] (add-class "hidden"))
+(at ["#loadingdiv"] (add-class "hiddens"))
+(at ["#loadingdiv"] (add-class "hidden"))
+(at ["#loadingdiv"] (remove-class "hidden"))
+(yourmem)
+(browser-repl)
+(in-ns 'modern-cljs.gbc)
+appid
+(getbonuses)
+(browser-repl)
+(in-ns 'modern-cljs.gbc)
+appid
+m/bonusquery
+(m/bonusquery (chan) 123456)
+(m/bonusquery (chan) 321574327984696)
