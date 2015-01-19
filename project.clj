@@ -31,7 +31,7 @@
 
   :aot :all
 
-  :source-paths ["src/clj" "src/cljs"]
+  :source-paths ["src/clj" "src/cljs" "src/clojure_getting_started"]
 
   :plugins [
             [lein-cljsbuild "1.0.0"]
