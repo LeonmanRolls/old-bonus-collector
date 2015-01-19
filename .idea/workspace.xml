@@ -4,7 +4,6 @@
     <list default="true" id="8b6bd632-fe3b-4d3d-b458-84592ceb4bd6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clojure_getting_started/web.clj" afterPath="$PROJECT_DIR$/src/clojure_getting_started/web.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="clojure-getting-started.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="web.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/clojure_getting_started/web.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6968391" vertical-offset="991" max-vertical-offset="1764">
-              <caret line="82" column="1" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.8534483" vertical-offset="972" max-vertical-offset="1764">
+              <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -95,7 +94,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1841" />
+    <option name="x" value="49" />
     <option name="y" value="-744" />
     <option name="width" value="1743" />
     <option name="height" value="744" />
@@ -496,7 +495,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1841" y="-744" width="1743" height="744" extended-state="6" />
+    <frame x="49" y="-744" width="1743" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -689,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_getting_started/web.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6968391" vertical-offset="991" max-vertical-offset="1764">
-          <caret line="82" column="1" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.8534483" vertical-offset="972" max-vertical-offset="1764">
+          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
           <folding />
         </state>
       </provider>

@@ -1,7 +1,4 @@
 (ns clojure-getting-started.web
-  #_(:require [compojure.core :refer [defroutes GET PUT POST DELETE ANY]]
-            )
-
   (:use compojure.core)
   (:use ring.middleware.edn)
   (:require [compojure.handler :as handler]
@@ -20,6 +17,9 @@
     [environ.core :refer [env]]
     :reload)
   )
+
+#_(:require [compojure.core :refer [defroutes GET PUT POST DELETE ANY]]
+          )
 
 #_(defn splash []
   {:status 200
@@ -79,13 +79,13 @@
 
 ;; site function create an handler suitable for a standard website,
 ;; adding a bunch of standard ring middleware to app-route:
-(def handler
+(def app
   (handler/site (-> app-routes wrap-edn-params)))
 
 
 (defn -main [& [port]]
   (let [port (Integer. (or port (env :port) 5000))]
-    (jetty/run-jetty (site #'handler) {:port port :join? false})))
+    (jetty/run-jetty (site #'app) {:port port :join? false})))
 
 ;; For interactive development:
 ;; (.stop server)
