@@ -1,6 +1,6 @@
 (ns modern-cljs.environment)
 
-(def version "fbtest/live")
+(def version "")
 
 (defn getLink [wantedLink]
     (cond
