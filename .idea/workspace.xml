@@ -2,7 +2,460 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b6bd632-fe3b-4d3d-b458-84592ceb4bd6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clj/views/yt.clj" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$in_days.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$in_hours.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$in_millis.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$in_minutes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$in_months.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$in_seconds.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$in_weeks.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$in_years.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compojure/route$add_wildcard.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compojure/route$files.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compojure/route$loading__4910__auto__.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compojure/route$not_found.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compojure/route$resources.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compojure/route__init.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/handlers/yt$init.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/handlers/yt__init.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler$fn__743.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler$fn__794.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hiccup/util$fn__590.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hiccup/util$fn__619.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modern_cljs/core$generate_response.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modern_cljs/core__init.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/adapter/jetty$create_server.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/adapter/jetty$loading__4910__auto__.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/adapter/jetty$proxy_handler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/adapter/jetty$run_jetty.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/adapter/jetty$ssl_connector.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/adapter/jetty$ssl_context_factory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/adapter/jetty/proxy$org/eclipse/jetty/server/handler/AbstractHandler$0.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/adapter/jetty__init.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/content_type$content_type_response.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/content_type$loading__4910__auto__.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/content_type$wrap_content_type.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/content_type__init.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/file_info$file_info_response.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/file_info$guess_mime_type.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/file_info$loading__4910__auto__.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/file_info$make_http_format.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/file_info$not_modified_since_QMARK_.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/file_info$wrap_file_info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/file_info__init.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/head$head_request.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/head$head_response.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/head$loading__4910__auto__.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/head$wrap_head.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/head__init.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/mime_type$ext_mime_type.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/mime_type$filename_ext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/mime_type$loading__4910__auto__.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/mime_type__init.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/servlet$build_request_map.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/servlet$defservice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/servlet$get_client_cert.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/servlet$get_content_length.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/servlet$get_headers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/servlet$loading__4910__auto__.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/servlet$make_service_method.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/servlet$merge_servlet_keys.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/servlet$servlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/servlet$set_body.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/servlet$set_headers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/servlet$set_status.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/servlet$update_servlet_response.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/servlet/proxy$javax/servlet/http/HttpServlet$0.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ring/util/servlet__init.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/views/yt$eastcontent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/views/yt$loading__4910__auto__.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/views/yt$maincontent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/views/yt$videoFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/views/yt__init.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clout/core/CompiledRoute.class" afterPath="$PROJECT_DIR$/target/classes/clout/core/CompiledRoute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core/DateTimeProtocol.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core/DateTimeProtocol.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/ExceptionInfo.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/ExceptionInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/ExceptionInfo__init.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/ExceptionInfo__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types/IndexingPushbackReader.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types/IndexingPushbackReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/session/memory/MemoryStore.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/session/memory/MemoryStore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types/SourceLoggingPushbackReader.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types/SourceLoggingPushbackReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/views/adverts__init.class" afterPath="$PROJECT_DIR$/target/classes/views/adverts__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/views/click$clickxTable.class" afterPath="$PROJECT_DIR$/target/classes/views/click$clickxTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/handlers/click__init.class" afterPath="$PROJECT_DIR$/target/classes/handlers/click__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/views/click__init.class" afterPath="$PROJECT_DIR$/target/classes/views/click__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/codec$assoc_conj.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/codec$assoc_conj.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/codec$form_decode.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/codec$form_decode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/codec$form_decode_str.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/codec$form_decode_str.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/codec$form_encode.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/codec$form_encode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/codec$parse_bytes.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/codec$parse_bytes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/codec$percent_decode.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/codec$percent_decode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/codec$percent_encode.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/codec$percent_encode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/codec$url_decode.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/codec$url_decode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/codec$url_encode.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/codec$url_encode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/codec__init.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/codec__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/coerce$from_date.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/coerce$from_date.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/coerce$from_sql_date.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/coerce$from_sql_date.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/coerce$from_sql_time.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/coerce$from_sql_time.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/coerce$from_string.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/coerce$from_string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_date.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_date.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_epoch.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_epoch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_local_date.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_local_date.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_local_date_time.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_local_date_time.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_long.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_long.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_sql_date.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_sql_date.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_sql_time.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_sql_time.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_string.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_timestamp.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/coerce$to_timestamp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/coerce__init.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/coerce__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/commons$number_literal_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/commons$number_literal_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/commons$parse_symbol.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/commons$parse_symbol.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/commons$throwing_reader.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/commons$throwing_reader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/commons__init.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/commons__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler$collapse_strs.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/compiler$collapse_strs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler$compile_seq.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/compiler$compile_seq.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler$container_tag_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/compiler$container_tag_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler$element_compile_strategy.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/compiler$element_compile_strategy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler$form_name.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/compiler$form_name.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler$hint_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/compiler$hint_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler$literal_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/compiler$literal_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler$merge_attributes.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/compiler$merge_attributes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler$normalize_element.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/compiler$normalize_element.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler$not_hint_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/compiler$not_hint_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler$not_implicit_map_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/compiler$not_implicit_map_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler$render_attribute.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/compiler$render_attribute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler$render_element.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/compiler$render_element.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler$unevaluated_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/compiler$unevaluated_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/compiler__init.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/compiler__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$get_cookie.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$get_cookie.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$normalize_quoted_strs.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$normalize_quoted_strs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$parse_cookie_header.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$parse_cookie_header.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$parse_cookies.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$parse_cookies.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$set_cookies.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$set_cookies.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$valid_attr_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$valid_attr_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$wrap_cookies.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$wrap_cookies.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$write_attr_map.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$write_attr_map.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$write_cookies.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/cookies$write_cookies.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/cookies__init.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/cookies__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$abuts_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$abuts_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$ago.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$ago.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clout/core$assoc_keys_with_groups.class" afterPath="$PROJECT_DIR$/target/classes/clout/core$assoc_keys_with_groups.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clout/core$assoc_vec.class" afterPath="$PROJECT_DIR$/target/classes/clout/core$assoc_vec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/compojure/core$compile_route.class" afterPath="$PROJECT_DIR$/target/classes/compojure/core$compile_route.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/compojure/core$context.class" afterPath="$PROJECT_DIR$/target/classes/compojure/core$context.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$date_midnight.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$date_midnight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$date_time.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$date_time.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$days.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$days.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$days_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$days_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$default_time_zone.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$default_time_zone.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/compojure/core$defroutes.class" afterPath="$PROJECT_DIR$/target/classes/compojure/core$defroutes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$do_at.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$do_at.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$do_at_STAR_.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$do_at_STAR_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$earliest.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$earliest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$end.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$end.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$epoch.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$epoch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$extend.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$extend.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$first_day_of_the_month.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$first_day_of_the_month.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$from_now.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$from_now.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$from_time_zone.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$from_time_zone.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$hours.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$hours.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$hours_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$hours_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/core$html.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/core$html.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/compojure/core$if_method.class" afterPath="$PROJECT_DIR$/target/classes/compojure/core$if_method.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/compojure/core$if_route.class" afterPath="$PROJECT_DIR$/target/classes/compojure/core$if_route.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$in_msecs.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$in_msecs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$in_secs.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$in_secs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$interval.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$interval.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$last_day_of_the_month.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$last_day_of_the_month.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$latest.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$latest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/compojure/core$let_request.class" afterPath="$PROJECT_DIR$/target/classes/compojure/core$let_request.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clout/core$lex.class" afterPath="$PROJECT_DIR$/target/classes/clout/core$lex.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clout/core$lex_1.class" afterPath="$PROJECT_DIR$/target/classes/clout/core$lex_1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$loading__4910__auto__.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$loading__4910__auto__.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$local_date.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$local_date.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$local_date_time.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$local_date_time.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/compojure/core$make_route.class" afterPath="$PROJECT_DIR$/target/classes/compojure/core$make_route.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/compojure/core$method_matches_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/compojure/core$method_matches_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$millis.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$millis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$mins_ago.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$mins_ago.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$minus.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$minus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$minutes.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$minutes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$minutes_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$minutes_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$months.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$months.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$months_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$months_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$now.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$now.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$number_of_days_in_the_month.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$number_of_days_in_the_month.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$overlaps_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$overlaps_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clout/core$path_info.class" afterPath="$PROJECT_DIR$/target/classes/clout/core$path_info.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$plus.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$plus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clout/core$re_escape.class" afterPath="$PROJECT_DIR$/target/classes/clout/core$re_escape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clout/core$re_groups_STAR_.class" afterPath="$PROJECT_DIR$/target/classes/clout/core$re_groups_STAR_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clout/core$route_compile.class" afterPath="$PROJECT_DIR$/target/classes/clout/core$route_compile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/compojure/core$routes.class" afterPath="$PROJECT_DIR$/target/classes/compojure/core$routes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/compojure/core$routing.class" afterPath="$PROJECT_DIR$/target/classes/compojure/core$routing.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$seconds.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$seconds.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$seconds_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$seconds_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$secs.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$secs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$secs_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$secs_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$start.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$start.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$time_zone_for_id.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$time_zone_for_id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$time_zone_for_offset.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$time_zone_for_offset.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$to_time_zone.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$to_time_zone.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$today.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$today.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$today_at.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$today_at.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$today_at_midnight.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$today_at_midnight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/compojure/core$vector_bindings.class" afterPath="$PROJECT_DIR$/target/classes/compojure/core$vector_bindings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$weeks.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$weeks.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$weeks_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$weeks_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$within_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$within_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/compojure/core$wrap_context.class" afterPath="$PROJECT_DIR$/target/classes/compojure/core$wrap_context.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$year_month.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$year_month.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$years.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$years.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core$years_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core$years_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/core__init.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/core__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clout/core__init.class" afterPath="$PROJECT_DIR$/target/classes/clout/core__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/compojure/core__init.class" afterPath="$PROJECT_DIR$/target/classes/compojure/core__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/core__init.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/core__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/def$defhtml.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/def$defhtml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/def$update_arglists.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/def$update_arglists.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/def$wrap_attrs.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/def$wrap_attrs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/def__init.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/def__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/views/default$index.class" afterPath="$PROJECT_DIR$/target/classes/views/default$index.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/views/default__init.class" afterPath="$PROJECT_DIR$/target/classes/views/default__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/default_data_readers$construct_calendar.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/default_data_readers$construct_calendar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/default_data_readers$construct_timestamp.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/default_data_readers$construct_timestamp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/default_data_readers$leap_year_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/default_data_readers$leap_year_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/default_data_readers$validated.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/default_data_readers$validated.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/default_data_readers__init.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/default_data_readers__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$dispatch_macros.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$dispatch_macros.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/edn$edn_request_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/edn$edn_request_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$escape_char.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$escape_char.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$macro_terminating_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$macro_terminating_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$macros.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$macros.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$not_constituent_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$not_constituent_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_char_STAR_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_char_STAR_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_delimited.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_delimited.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_dispatch.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_dispatch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_keyword.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_keyword.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_number.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_number.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_string.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_string_STAR_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_string_STAR_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_symbol.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_symbol.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_tagged.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_tagged.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_token.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_token.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_unicode_char.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$read_unicode_char.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/edn$wrap_edn_params.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/edn$wrap_edn_params.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$wrapping_reader.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn$wrapping_reader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn__init.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/edn__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/edn__init.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/edn__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modern_cljs/environment__init.class" afterPath="$PROJECT_DIR$/target/classes/modern_cljs/environment__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/handlers/feed__init.class" afterPath="$PROJECT_DIR$/target/classes/handlers/feed__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/views/feed__init.class" afterPath="$PROJECT_DIR$/target/classes/views/feed__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/flash$flash_response.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/flash$flash_response.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/flash$wrap_flash.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/flash$wrap_flash.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/flash__init.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/flash__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/format$formatter.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/format$formatter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/format$loading__4910__auto__.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/format$loading__4910__auto__.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/format$parse.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/format$parse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/format$parse_local.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/format$parse_local.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/format$parse_local_date.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/format$parse_local_date.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/format$show_formatters.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/format$show_formatters.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/format$to_map.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/format$to_map.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/format$unparse.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/format$unparse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/format$unparse_local.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/format$unparse_local.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/format$unparse_local_date.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/format$unparse_local_date.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clj_time/format__init.class" afterPath="$PROJECT_DIR$/target/classes/clj_time/format__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/algo/generic/functor__init.class" afterPath="$PROJECT_DIR$/target/classes/clojure/algo/generic/functor__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/handlers/gbc__init.class" afterPath="$PROJECT_DIR$/target/classes/handlers/gbc__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/views/gbc__init.class" afterPath="$PROJECT_DIR$/target/classes/views/gbc__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/compojure/handler$site.class" afterPath="$PROJECT_DIR$/target/classes/compojure/handler$site.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/compojure/handler__init.class" afterPath="$PROJECT_DIR$/target/classes/compojure/handler__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/core/incubator$_DOT__QMARK__DOT_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/core/incubator$_DOT__QMARK__DOT_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/core/incubator$__QMARK__GT_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/core/incubator$__QMARK__GT_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/core/incubator$__QMARK__GT__GT_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/core/incubator$__QMARK__GT__GT_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/core/incubator$defnilsafe.class" afterPath="$PROJECT_DIR$/target/classes/clojure/core/incubator$defnilsafe.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/core/incubator$dissoc_in.class" afterPath="$PROJECT_DIR$/target/classes/clojure/core/incubator$dissoc_in.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/core/incubator$seqable_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/core/incubator$seqable_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/core/incubator__init.class" afterPath="$PROJECT_DIR$/target/classes/clojure/core/incubator__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/io$piped_input_stream.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/io$piped_input_stream.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/io__init.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/io__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$as_properties.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$as_properties.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$as_sql_name.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$as_sql_name.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$col_str.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$col_str.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$create_table_ddl.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$create_table_ddl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$db_connection.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$db_connection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$db_do_commands.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$db_do_commands.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$db_do_prepared.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$db_do_prepared.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$db_do_prepared_return_keys.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$db_do_prepared_return_keys.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$db_find_connection.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$db_find_connection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$db_query_with_resultset.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$db_query_with_resultset.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$db_transaction_STAR_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$db_transaction_STAR_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$delete_BANG_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$delete_BANG_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$delete_sql.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$delete_sql.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$drop_table_ddl.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$drop_table_ddl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$execute_BANG_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$execute_BANG_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$execute_batch.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$execute_batch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$get_connection.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$get_connection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$insert_BANG_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$insert_BANG_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$insert_helper.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$insert_helper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$insert_multi_row_sql.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$insert_multi_row_sql.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$insert_single_row_sql.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$insert_single_row_sql.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$insert_sql.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$insert_sql.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$make_cols_unique.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$make_cols_unique.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$metadata_result.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$metadata_result.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$multi_insert_helper.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$multi_insert_helper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$parse_properties_uri.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$parse_properties_uri.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$prepare_statement.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$prepare_statement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$print_update_counts.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$print_update_counts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$query.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$query.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$quoted.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$quoted.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$result_set_seq.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$result_set_seq.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$set_parameters.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$set_parameters.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$table_str.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$table_str.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$throw_non_rte.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$throw_non_rte.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$update_BANG_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$update_BANG_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$update_sql.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$update_sql.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$with_db_connection.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$with_db_connection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$with_db_metadata.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc$with_db_metadata.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/java/jdbc__init.class" afterPath="$PROJECT_DIR$/target/classes/clojure/java/jdbc__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$_read.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$_read.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$codepoint_clause.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$codepoint_clause.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$pprint.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$pprint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$pprint_array.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$pprint_array.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$pprint_generic.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$pprint_generic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$pprint_object.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$pprint_object.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$read.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$read.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$read_array.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$read_array.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$read_escaped_char.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$read_escaped_char.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$read_hex_char.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$read_hex_char.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$read_integer.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$read_integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$read_json.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$read_json.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$read_number.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$read_number.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$read_object.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$read_object.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$read_quoted_string.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$read_quoted_string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$write.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$write.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$write_object.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$write_object.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json$write_string.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json$write_string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/data/json__init.class" afterPath="$PROJECT_DIR$/target/classes/clojure/data/json__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/keyword_params$keyify_params.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/keyword_params$keyify_params.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/keyword_params$wrap_keyword_params.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/keyword_params$wrap_keyword_params.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/keyword_params__init.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/keyword_params__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/handlers/link__init.class" afterPath="$PROJECT_DIR$/target/classes/handlers/link__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/views/link__init.class" afterPath="$PROJECT_DIR$/target/classes/views/link__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/local$addBonuses.class" afterPath="$PROJECT_DIR$/target/classes/model/local$addBonuses.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/local$addClickxBonus.class" afterPath="$PROJECT_DIR$/target/classes/model/local$addClickxBonus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/local$addNewApplication.class" afterPath="$PROJECT_DIR$/target/classes/model/local$addNewApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/local$addNewGame.class" afterPath="$PROJECT_DIR$/target/classes/model/local$addNewGame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/local$clickUpdate.class" afterPath="$PROJECT_DIR$/target/classes/model/local$clickUpdate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/local__init.class" afterPath="$PROJECT_DIR$/target/classes/model/local__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/macro$deftemplate.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/macro$deftemplate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/macro$expand_bindings.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/macro$expand_bindings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/macro$expand_deftype.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/macro$expand_deftype.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/macro$expand_fn.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/macro$expand_fn.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/macro$expand_fn_body.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/macro$expand_fn_body.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/macro$expand_reify.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/macro$expand_reify.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/macro$macrolet.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/macro$macrolet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/macro$name_with_attributes.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/macro$name_with_attributes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/macro$protected_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/macro$protected_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/macro__init.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/macro__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/session/memory__init.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/session/memory__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/multipart_params$file_item_iterator_seq.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/multipart_params$file_item_iterator_seq.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/multipart_params$multipart_form_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/multipart_params$multipart_form_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/multipart_params$multipart_params_request.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/multipart_params$multipart_params_request.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/multipart_params$parse_multipart_params.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/multipart_params$parse_multipart_params.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/multipart_params$request_context.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/multipart_params$request_context.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/multipart_params$wrap_multipart_params.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/multipart_params$wrap_multipart_params.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/multipart_params__init.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/multipart_params__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/nested_params$assoc_nested.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/nested_params$assoc_nested.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/nested_params$nest_params.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/nested_params$nest_params.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/nested_params$nested_params_request.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/nested_params$nested_params_request.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/nested_params$param_pairs.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/nested_params$param_pairs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/nested_params$parse_nested_keys.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/nested_params$parse_nested_keys.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/nested_params$wrap_nested_params.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/nested_params$wrap_nested_params.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/nested_params__init.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/nested_params__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/page$html5.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/page$html5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/page$include_css.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/page$include_css.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/page$include_js.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/page$include_js.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/page$xhtml.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/page$xhtml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/page__init.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/page__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/params$assoc_form_params.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/params$assoc_form_params.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/params$assoc_query_params.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/params$assoc_query_params.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/params$params_request.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/params$params_request.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/params$urlencoded_form_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/params$urlencoded_form_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/params$wrap_params.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/params$wrap_params.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/params__init.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/params__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$add_meta.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$add_meta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$dispatch_macros.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$dispatch_macros.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$escape_char.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$escape_char.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$macro_terminating_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$macro_terminating_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$macros.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$macros.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_arg.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_arg.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_char_STAR_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_char_STAR_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_ctor.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_ctor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_delimited.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_delimited.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_dispatch.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_dispatch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_fn.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_fn.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_list.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_list.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_map.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_map.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_meta.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_meta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_number.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_number.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_string.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_string_STAR_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_string_STAR_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_symbol.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_symbol.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_tagged.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_tagged.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_token.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_token.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_unicode_char.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_unicode_char.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_unquote.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_unquote.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_vector.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$read_vector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$register_arg.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$register_arg.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$register_gensym.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$register_gensym.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$resolve_ns.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$resolve_ns.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$resolve_symbol.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$resolve_symbol.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$syntax_quote_STAR_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$syntax_quote_STAR_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$unquote_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$unquote_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$unquote_splicing_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$unquote_splicing_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader$wrapping_reader.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader$wrapping_reader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader__init.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types$drop_last_logged_char.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types$drop_last_logged_char.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types$indexing_reader_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types$indexing_reader_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types$log_source_STAR_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types$log_source_STAR_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types$log_source_char.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types$log_source_char.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types$normalize_newline.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types$normalize_newline.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types$read_line.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types$read_line.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types$reader_error.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types$reader_error.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types__init.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/reader_types__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/response$charset.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/response$charset.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/response$file_response.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/response$file_response.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/response$find_file.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/response$find_file.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/response$find_index_file.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/response$find_index_file.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/response$get_header.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/response$get_header.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/response$resource_response.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/response$resource_response.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/response$response_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/response$response_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/response$safely_find_file.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/response$safely_find_file.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/response$set_cookie.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/response$set_cookie.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/response$url_response.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/response$url_response.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/compojure/response__init.class" afterPath="$PROJECT_DIR$/target/classes/compojure/response__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/response__init.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/response__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/session$bare_session_request.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/session$bare_session_request.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/session$bare_session_response.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/session$bare_session_response.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/session$session_options.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/session$session_options.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/session$session_request.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/session$session_request.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/session$session_response.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/session$session_response.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/session$wrap_session.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/session$wrap_session.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/session__init.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/session__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/views/snippets__init.class" afterPath="$PROJECT_DIR$/target/classes/views/snippets__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/middleware/session/store__init.class" afterPath="$PROJECT_DIR$/target/classes/ring/middleware/session/store__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/time$formatter.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/time$formatter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ring/util/time__init.class" afterPath="$PROJECT_DIR$/target/classes/ring/util/time__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hiccup/util__init.class" afterPath="$PROJECT_DIR$/target/classes/hiccup/util__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/utils$newline_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/utils$newline_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/utils$whitespace_QMARK_.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/utils$whitespace_QMARK_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/utils__init.class" afterPath="$PROJECT_DIR$/target/classes/clojure/tools/reader/impl/utils__init.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stale/extract-native.dependencies" afterPath="$PROJECT_DIR$/target/stale/extract-native.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="clojure-getting-started.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +489,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.clj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15517241" vertical-offset="0" max-vertical-offset="1800">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
               <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gbc.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/clj/views/gbc.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.10344828" vertical-offset="0" max-vertical-offset="2160">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,7 +549,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1841" />
+    <option name="x" value="-1743" />
     <option name="y" value="-744" />
     <option name="width" value="1743" />
     <option name="height" value="744" />
@@ -526,7 +989,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1841" y="-744" width="1743" height="744" extended-state="6" />
+    <frame x="-1743" y="-744" width="1743" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -615,8 +1078,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15517241" vertical-offset="0" max-vertical-offset="1800">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/views/gbc.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10344828" vertical-offset="0" max-vertical-offset="2160">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
