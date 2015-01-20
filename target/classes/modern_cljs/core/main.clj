@@ -1,1 +1,0 @@
-(do (clojure.core/ns modern-cljs.core.main (:require ring.server.leiningen) (:gen-class)) (clojure.core/defn -main [] (ring.server.leiningen/serve (quote {:ring {:auto-reload? false, :stacktraces? false, :open-browser? false, :port 3000, :handler modern-cljs.core/handler}}))))
