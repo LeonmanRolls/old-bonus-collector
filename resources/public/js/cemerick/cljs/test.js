@@ -571,7 +571,7 @@ cemerick.cljs.test.test_function = (function() {
 var test_function = null;
 var test_function__1 = (function (v){return test_function.cljs$core$IFn$_invoke$arity$2(cemerick.cljs.test.init_test_environment(),v);
 });
-var test_function__2 = (function (test_env,v){var entry_point_QMARK___10116__auto__ = cemerick.cljs.test._STAR_entry_point_STAR_;var _STAR_entry_point_STAR_40487 = cemerick.cljs.test._STAR_entry_point_STAR_;try{cemerick.cljs.test._STAR_entry_point_STAR_ = false;
+var test_function__2 = (function (test_env,v){var entry_point_QMARK___9290__auto__ = cemerick.cljs.test._STAR_entry_point_STAR_;var _STAR_entry_point_STAR_40487 = cemerick.cljs.test._STAR_entry_point_STAR_;try{cemerick.cljs.test._STAR_entry_point_STAR_ = false;
 if(cljs.core.fn_QMARK_(v))
 {} else
 {throw (new Error([cljs.core.str("Assert failed: "),cljs.core.str("test-var must be passed the function to be tested (not a symbol naming it)"),cljs.core.str("\n"),cljs.core.str(cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([cljs.core.list(new cljs.core.Symbol(null,"fn?","fn?",-1640430032,null),new cljs.core.Symbol(null,"v","v",-1640531409,null))], 0)))].join('')));
@@ -602,7 +602,7 @@ try{(t_40492.cljs$core$IFn$_invoke$arity$1 ? t_40492.cljs$core$IFn$_invoke$arity
 }}
 } else
 {}
-return cemerick.cljs.test.finish_test_entry_point(entry_point_QMARK___10116__auto__,test_env);
+return cemerick.cljs.test.finish_test_entry_point(entry_point_QMARK___9290__auto__,test_env);
 }finally {cemerick.cljs.test._STAR_entry_point_STAR_ = _STAR_entry_point_STAR_40487;
 }});
 test_function = function(test_env,v){
@@ -626,7 +626,7 @@ cemerick.cljs.test.test_all_vars = (function() {
 var test_all_vars = null;
 var test_all_vars__1 = (function (ns_sym){return test_all_vars.cljs$core$IFn$_invoke$arity$2(cemerick.cljs.test.init_test_environment(),ns_sym);
 });
-var test_all_vars__2 = (function (test_env,ns_sym){var entry_point_QMARK___10116__auto__ = cemerick.cljs.test._STAR_entry_point_STAR_;var _STAR_entry_point_STAR_40504 = cemerick.cljs.test._STAR_entry_point_STAR_;try{cemerick.cljs.test._STAR_entry_point_STAR_ = false;
+var test_all_vars__2 = (function (test_env,ns_sym){var entry_point_QMARK___9290__auto__ = cemerick.cljs.test._STAR_entry_point_STAR_;var _STAR_entry_point_STAR_40504 = cemerick.cljs.test._STAR_entry_point_STAR_;try{cemerick.cljs.test._STAR_entry_point_STAR_ = false;
 var tests_40509 = cljs.core.filter((function (p1__40496_SHARP_){return cljs.core.constant$keyword$209.cljs$core$IFn$_invoke$arity$1(cljs.core.meta(p1__40496_SHARP_));
 }),cljs.core.vals(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(cemerick.cljs.test.registered_tests),ns_sym)));var once_fixture_fn_40510 = cemerick.cljs.test.join_fixtures(cljs.core.constant$keyword$239.cljs$core$IFn$_invoke$arity$1((ns_sym.cljs$core$IFn$_invoke$arity$1 ? ns_sym.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(cemerick.cljs.test.registered_fixtures)) : ns_sym.call(null,cljs.core.deref(cemerick.cljs.test.registered_fixtures)))));var each_fixture_fn_40511 = cemerick.cljs.test.join_fixtures(cljs.core.constant$keyword$240.cljs$core$IFn$_invoke$arity$1((ns_sym.cljs$core$IFn$_invoke$arity$1 ? ns_sym.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(cemerick.cljs.test.registered_fixtures)) : ns_sym.call(null,cljs.core.deref(cemerick.cljs.test.registered_fixtures)))));(once_fixture_fn_40510.cljs$core$IFn$_invoke$arity$1 ? once_fixture_fn_40510.cljs$core$IFn$_invoke$arity$1((function (){var seq__40505 = cljs.core.seq(cljs.core.remove(cemerick.cljs.test.async_test_QMARK_,tests_40509));var chunk__40506 = null;var count__40507 = 0;var i__40508 = 0;while(true){
 if((i__40508 < count__40507))
@@ -751,7 +751,7 @@ break;
 })));
 cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p1__40497_SHARP_,p2__40498_SHARP_){return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cemerick.cljs.test.schedule_async_test,p1__40497_SHARP_,p2__40498_SHARP_);
 }),cljs.core.constant$keyword$216.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(test_env)),cljs.core.map.cljs$core$IFn$_invoke$arity$2(cljs.core.comp.cljs$core$IFn$_invoke$arity$2(cljs.core.juxt.cljs$core$IFn$_invoke$arity$2(cljs.core.constant$keyword$198,cljs.core.constant$keyword$209),cljs.core.meta),cljs.core.filter(cemerick.cljs.test.async_test_QMARK_,tests_40509)));
-return cemerick.cljs.test.finish_test_entry_point(entry_point_QMARK___10116__auto__,test_env);
+return cemerick.cljs.test.finish_test_entry_point(entry_point_QMARK___9290__auto__,test_env);
 }finally {cemerick.cljs.test._STAR_entry_point_STAR_ = _STAR_entry_point_STAR_40504;
 }});
 test_all_vars = function(test_env,ns_sym){
@@ -781,7 +781,7 @@ cemerick.cljs.test.test_ns = (function() {
 var test_ns = null;
 var test_ns__1 = (function (ns_sym){return test_ns.cljs$core$IFn$_invoke$arity$2(cemerick.cljs.test.init_test_environment(),ns_sym);
 });
-var test_ns__2 = (function (test_env,ns_sym){var entry_point_QMARK___10116__auto__ = cemerick.cljs.test._STAR_entry_point_STAR_;var _STAR_entry_point_STAR_40537 = cemerick.cljs.test._STAR_entry_point_STAR_;try{cemerick.cljs.test._STAR_entry_point_STAR_ = false;
+var test_ns__2 = (function (test_env,ns_sym){var entry_point_QMARK___9290__auto__ = cemerick.cljs.test._STAR_entry_point_STAR_;var _STAR_entry_point_STAR_40537 = cemerick.cljs.test._STAR_entry_point_STAR_;try{cemerick.cljs.test._STAR_entry_point_STAR_ = false;
 cemerick.cljs.test.do_report.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentArrayMap(null, 3, [cljs.core.constant$keyword$224,cljs.core.constant$keyword$230,cljs.core.constant$keyword$231,ns_sym,cljs.core.constant$keyword$217,test_env], null));
 var temp__4090__auto___40538 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(cemerick.cljs.test.registered_test_hooks),ns_sym);if(cljs.core.truth_(temp__4090__auto___40538))
 {var test_hook_40539 = temp__4090__auto___40538;(test_hook_40539.cljs$core$IFn$_invoke$arity$1 ? test_hook_40539.cljs$core$IFn$_invoke$arity$1(test_env) : test_hook_40539.call(null,test_env));
@@ -789,7 +789,7 @@ var temp__4090__auto___40538 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.
 {cemerick.cljs.test.test_all_vars.cljs$core$IFn$_invoke$arity$2(test_env,ns_sym);
 }
 cemerick.cljs.test.do_report.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentArrayMap(null, 3, [cljs.core.constant$keyword$224,cljs.core.constant$keyword$232,cljs.core.constant$keyword$231,ns_sym,cljs.core.constant$keyword$217,test_env], null));
-return cemerick.cljs.test.finish_test_entry_point(entry_point_QMARK___10116__auto__,test_env);
+return cemerick.cljs.test.finish_test_entry_point(entry_point_QMARK___9290__auto__,test_env);
 }finally {cemerick.cljs.test._STAR_entry_point_STAR_ = _STAR_entry_point_STAR_40537;
 }});
 test_ns = function(test_env,ns_sym){
@@ -815,7 +815,7 @@ cemerick.cljs.test.test_summary = (function test_summary(test_env){var test_env_
 * @param {...*} var_args
 */
 cemerick.cljs.test.run_tests_STAR_ = (function() { 
-var run_tests_STAR___delegate = function (namespaces){var vec__40546 = (((cljs.core.first(namespaces) instanceof cljs.core.Atom))?namespaces:cljs.core.cons(cemerick.cljs.test.init_test_environment(),namespaces));var test_env = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40546,0,null);var namespaces__$1 = cljs.core.nthnext(vec__40546,1);var entry_point_QMARK___10116__auto__ = cemerick.cljs.test._STAR_entry_point_STAR_;var _STAR_entry_point_STAR_40547 = cemerick.cljs.test._STAR_entry_point_STAR_;try{cemerick.cljs.test._STAR_entry_point_STAR_ = false;
+var run_tests_STAR___delegate = function (namespaces){var vec__40546 = (((cljs.core.first(namespaces) instanceof cljs.core.Atom))?namespaces:cljs.core.cons(cemerick.cljs.test.init_test_environment(),namespaces));var test_env = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40546,0,null);var namespaces__$1 = cljs.core.nthnext(vec__40546,1);var entry_point_QMARK___9290__auto__ = cemerick.cljs.test._STAR_entry_point_STAR_;var _STAR_entry_point_STAR_40547 = cemerick.cljs.test._STAR_entry_point_STAR_;try{cemerick.cljs.test._STAR_entry_point_STAR_ = false;
 var seq__40548_40552 = cljs.core.seq(cljs.core.distinct(namespaces__$1));var chunk__40549_40553 = null;var count__40550_40554 = 0;var i__40551_40555 = 0;while(true){
 if((i__40551_40555 < count__40550_40554))
 {var ns_40556 = chunk__40549_40553.cljs$core$IIndexed$_nth$arity$2(null,i__40551_40555);cemerick.cljs.test.test_ns.cljs$core$IFn$_invoke$arity$2(test_env,ns_40556);
@@ -865,7 +865,7 @@ break;
 }
 cemerick.cljs.test.on_testing_complete(test_env,cemerick.cljs.test.test_summary);
 cemerick.cljs.test.test_summary(test_env);
-return cemerick.cljs.test.finish_test_entry_point(entry_point_QMARK___10116__auto__,test_env);
+return cemerick.cljs.test.finish_test_entry_point(entry_point_QMARK___9290__auto__,test_env);
 }finally {cemerick.cljs.test._STAR_entry_point_STAR_ = _STAR_entry_point_STAR_40547;
 }};
 var run_tests_STAR_ = function (var_args){

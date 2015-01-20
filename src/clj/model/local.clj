@@ -11,7 +11,7 @@
          :password (env :db-password "1fishy4ME!") })
 
 (defn appInfo [appid]
-  (nh (sql/query db [(str "SELECT gameid,gamename,gbcid from games where gbcid=" appid)]) 0))
+  (nth (sql/query db [(str "SELECT gameid,gamename,gbcid from games where gbcid=" appid)]) 0))
 
 
 #_(appInfo 144726275680600)
