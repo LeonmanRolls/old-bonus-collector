@@ -13,6 +13,7 @@
 (defn appInfo [appid]
   (nth (sql/query db [(str "SELECT gameid,gamename,gbcid from games where gbcid=" appid)]) 0))
 
+
 #_(appInfo 144726275680600)
 
 (defn appInfoClickx [appid]
