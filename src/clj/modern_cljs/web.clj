@@ -24,7 +24,7 @@
 (defn splash []
   {:status 200
    :headers {"Content-Type" "text/plain"}
-   :body (pr-str ["Hello there old chap yea boi" :from 'Heroku])})
+   :body (pr-str ["Oi! You're not supposed to be here!" :from 'Heroku])})
 
 #_(defroutes app
   (GET "/" []
