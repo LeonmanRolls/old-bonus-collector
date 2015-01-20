@@ -21,7 +21,7 @@
 #_(:require [compojure.core :refer [defroutes GET PUT POST DELETE ANY]]
           )
 
-#_(defn splash []
+(defn splash []
   {:status 200
    :headers {"Content-Type" "text/plain"}
    :body (pr-str ["Hello there old chap yea boi" :from 'Heroku])})
@@ -71,6 +71,9 @@
            (PUT "/addClickxLink/" [linkMap] (generate-response (local/addClickxLink linkMap)))
            (PUT "/addClickxBonus/" [bonusMap] (generate-response (local/addClickxBonus bonusMap)))
            (PUT "/clickUpdate/" [link] (generate-response (local/clickUpdate link)))
+
+           ;For CI to pass
+           (GET "/" [] (splash))
 
            ; to server static pages saved in resources/public directory
            (route/resources "/")
