@@ -6,6 +6,5 @@ pom.xml
 /.lein-env
 /checkouts
 /.env
-target
 /.lein-repl-history
 /.nrepl-port
