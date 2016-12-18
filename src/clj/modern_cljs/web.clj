@@ -15,8 +15,7 @@
     [compojure.route :as route]
     [model.local :as local]
     [environ.core :refer [env]]
-    :reload)
-  )
+    :reload))
 
 #_(:require [compojure.core :refer [defroutes GET PUT POST DELETE ANY]]
           )
@@ -31,7 +30,6 @@
        (splash))
   (ANY "*" []
        (route/not-found (slurp (io/resource "404.html")))))
-
 
 (defn generate-response  [data &  [status]]
       {:status  (or status 200)
